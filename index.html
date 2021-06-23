@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset=utf-8 />
-    <title>Natural Bridge in Alabama</title>
+    <title>SEC Stadiums</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
@@ -154,34 +154,55 @@
         <div class="row">
             <div class="first-column">
                 <p>
-                    TBD
+                    The map presents all 14 SEC football stadiums with the stadium's name. When the map is zoomed in the icon sizes will changed based on the stadiums capacity.
+                    A link to the individual stadium map points can be found below, along with the geojson link and tools used in making this map. The goal of this map is to provided 
+                    the location of the university stadiums on one interactive map. Furthermore, the capacity of each stadium can be compared with the location of the stadium 
+                    and can show the rural areas in which the stadiums are located. 
                 <br>
                 <br>
-                    TBD
+                    The Southeastern Conference is know for being the best college football conference in the US. The conference holds universities with the best facilities despite most of the conference
+                    being located in rural areas. Historically the SEC annually has the highest profitability and sends the most players to the NFL compared to other conferences. 
                 </p>
+
+                </ul>
+
+                <hr>              
+                <h3>Individual Stdiums Maps with Max Capacity</h3>
+                <ul>
+                    <a href='mapBama.html' class="linkbox">University of Alabama - 101,821 </a>
+                    <a href='mapAuburn.html' class="linkbox">Auburn University - 87,451</a>
+                    <a href='mapArkansas.html' class="linkbox">University of Arkansas - 76,212</a>
+                    <a href='mapFlordia.html' class="linkbox">University of Flordia - 88,548</a>
+                    <a href='mapUGA.html' class="linkbox">University of Georgia - 92,746</a>
+                    <a href='mapKentucky.html' class="linkbox">University of Kentucky - 61,000</a>
+                    <a href='mapLSU.html' class="linkbox">Louisiana State University - 120,321</a>
+                    <a href='mapMSU.html' class="linkbox">Mississippi State University - 61,337</a>
+                    <a href='mapOleMiss.html' class="linkbox">Ole Miss - 64,038</a>
+                    <a href='mapUSC.html' class="linkbox">University of South Carolina - 80,250</a>
+                    <a href='mapA&M.html' class="linkbox">Texas A&M - 102,733</a>
+                    <a href='mapVandy.html' class="linkbox">Vanderbilt University - 40,550</a>
+                    <a href='mapMIZZ.html' class="linkbox">University of Missoui - 62,621</a>
+                    <a href='mapTenn.html' class="linkbox">University of Tennessee - 102,455</a> </ul>
+
+            </div>
+            <div class="column">
+                <img class="max-image-width" src="SECstadiums-FINAL..jpg"
+                    title="SEC Stadiums">
+                <div class="linkbox">Photograph from ESPN</div>
+                <br>
+                
+                <h3>Project assets</h3>
+                <ul>
+                    <li><a href="SECFootballStadiums.geojson" download>GeoJSON Link</a></li>
+                </ul>
+                <hr>              
                 <h3>Tools Used in this Project</h3>
                 <ul>
                     <li>PostGIS was used to store/query the national dataset.</li>
                     <li>Data is shown on Mapbox web map with geolocation services enabled. </li>
-                    <li>GDAL and QGIS 3.18.2 to convert raster elevation units and create contours.</li>
-                </ul>
-
-
-                <hr>
-                <h3>Project assets</h3>
-                <ul>
-                    <li>Add link to geojson</li>
-                    <li><a href="NaturalBridgeAL.geojson" download>GeoJSON Link</a></li>-->
-                </ul>
+                    <li>GDAL and QGIS 3.18.2 to convert raster the national dataset. Capacity and University name was added in Mapbox</li>
+                    <li>Data for capacity from Saturady Down South from 2019 </li>
                 </p>
-                <li>Visit my Github account <a href='https://github.com'>@rcel225</a> </li>
-
-
-            </div>
-            <div class="column">
-                <img class="max-image-width" src="Natural Bridge.jpg"
-                    title="Natural Bridge">
-                <div class="linkbox">Photograph from Alabama Waterfalls</div>
 
             </div>
         </div>
@@ -191,6 +212,7 @@
         <!-- <h4><a href="https://uky-gis.github.io">UKy GIS and Mapping</a></h4> -->
         <a href="https://uky-gis.github.io">
             <img src="logo-color-400px.png" alt="Uinversity of Kentucky Geography"></a>
+            <li>Visit my Github account <a href='https://github.com'>@rcel225</a> </li>
     </section>
 
 </body>
